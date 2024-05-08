@@ -1,0 +1,60 @@
+{
+  "name": "azion-samples-20240508222837",
+  "bucket": "samples-20240508222837",
+  "preset": "astro",
+  "mode": "deliver",
+  "env": "production",
+  "prefix": "20240508222836",
+  "not-first-run": true,
+  "function": {
+    "id": 22939,
+    "name": "__DEFAULT__",
+    "file": ".edge/worker.js",
+    "args": "./azion/args.json",
+    "instance-id": 22488,
+    "instance-name": "__DEFAULT__"
+  },
+  "application": {
+    "id": 1715203288,
+    "name": "__DEFAULT__"
+  },
+  "domain": {
+    "id": 1715202059,
+    "name": "azion-samples-20240508222837",
+    "domain_name": "xclot4fg2a.map.azionedge.net",
+    "url": "https://xclot4fg2a.map.azionedge.net"
+  },
+  "rt-purge": {
+    "purge_on_publish": true
+  },
+  "origin": [
+    {
+      "origin-id": 132106,
+      "origin-key": "6a5d1311-d0d8-41c5-89ca-5f3338d0ad1d",
+      "name": "azion-samples-20240508222837_single"
+    },
+    {
+      "origin-id": 132107,
+      "origin-key": "645a99fa-a177-4913-b6ed-5402daca22a6",
+      "name": "origin-storage-default"
+    }
+  ],
+  "rules-engine": {
+    "created": false,
+    "rules": [
+      {
+        "id": 249558,
+        "name": "Main_Rule"
+      },
+      {
+        "id": 249559,
+        "name": "Index_Rewrite_1"
+      },
+      {
+        "id": 249560,
+        "name": "Index_Rewrite_2"
+      }
+    ]
+  },
+  "cache-settings": null
+}
